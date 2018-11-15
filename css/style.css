@@ -8260,17 +8260,20 @@ h1, h2, h3, h4, h5,
   position: relative; }
 
 .about-wrap {
-  padding: 0 2em; }
+  padding: 0 3em; }
   @media (max-width: 767.98px) {
     .about-wrap {
       padding: 0; } }
   .about-wrap h2 {
-    font-family: "Montserrat", Arial, sans-serif; }
+    font-family: Times new roman, sans-serif; }
+    .about-wrap p{
+      font-size: 500;
+    }
 
 .colorlib-video {
   overflow: hidden;
   position: relative;
-  height: 400px; }
+  height: 280px; }
   .colorlib-video a {
     z-index: 1001;
     position: absolute;
