@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: 19 Nov 2018 pada 15.48
+-- Generation Time: 19 Nov 2018 pada 16.00
 -- Versi Server: 10.1.24-MariaDB
 -- PHP Version: 7.1.6
 
@@ -70,7 +70,7 @@ INSERT INTO `product` (`ID`, `NamaProduct`, `Harga`, `Image`) VALUES
 (28, 'Maybelline Superstay Matte Ink', 120000, 'g28.jpg'),
 (29, 'Make Over Powder Eye Shadow', 83000, 'g29.jpg'),
 (30, 'BB Mineral Guard Filter Faces', 35000, 'g30.jpg'),
-(31, 'Fcestudio Master Fix Spray', 233000, 'g31.jpg'),
+(31, 'Facestudio Master Fix Spray', 233000, 'g31.jpg'),
 (32, 'Intense Matte Lip Cream', 105000, 'g32.jpg'),
 (33, 'Anti Aging Day Cream', 78000, 'g33.jpg'),
 (34, 'Staylast Liquid Eyeliner', 48000, 'g34.jpg'),
