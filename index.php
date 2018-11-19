@@ -238,7 +238,9 @@
 					</div>
 					<?php }?>
 		</div>
-		
+		<br></br>
+		<br></br>
+		<br></br>
 
 		<div class="colorlib-partner">
 			<div class="container">
