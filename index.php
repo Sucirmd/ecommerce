@@ -36,6 +36,12 @@
 	<link rel="stylesheet" href="css/style.css">
 
 	</head>
+	<?php
+		session_start();
+		//koneksi database 
+		$koneksi = new mysqli("localhost","ucirmd","ucirmd","ecommerce");
+
+	?>
 	<body>
 		
 	<div class="colorlib-loader"></div>
@@ -212,13 +218,27 @@
 			<div class="container">
 				<div class="row">
 					<div class="col-sm-8 offset-sm-2 text-center colorlib-heading">
-						<h2>Best Sellers</h2>
+						<h1>All Products</h1>
 					</div>
 				</div>
 				
-				
-			</div>
+				<div class="row row-pb-md">
+					<?php $ambil =$koneksi->query("select * from product"); ?>
+								<?php while($perproduct=$ambil->fetch_assoc()) { ?>
+					<div class="col-lg-3 mb-4 text-center">
+						<div class="product-entry border">
+							<a href="#" class="prod-img">
+								<img src="images/<?php echo $perproduct['Image']; ?>" alt="">
+							</a>
+							<div class="desc">
+								<h2><?php echo $perproduct['NamaProduct']; ?> </h2>
+								<span class="price">Rp. <?php echo number_format($perproduct['Harga']); ?></span>
+							</div>
+						</div>
+					</div>
+					<?php }?>
 		</div>
+		
 
 		<div class="colorlib-partner">
 			<div class="container">
