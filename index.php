@@ -246,7 +246,7 @@
 			<div class="container">
 				<div class="row">
 					<div class="col-sm-8 offset-sm-2 text-center colorlib-heading colorlib-heading-sm">
-						<h2>Trusted Partners</h2>
+						<h2>Beauty Partners</h2>
 					</div>
 				</div>
 				<div class="row">
